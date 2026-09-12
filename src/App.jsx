@@ -1,5 +1,6 @@
 import React, { useEffect, useId, useMemo, useRef, useState } from "react";
 import Ranking from "./Ranking.jsx";
+import InstallApp from './InstallApp.jsx';
 import {
   data,
   find,
@@ -1175,6 +1176,7 @@ export default function App() {
         </div>
       </aside>
       <main>
+        <InstallApp />
         <header className="page-header">
           <div>
             <h1>

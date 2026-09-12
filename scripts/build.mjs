@@ -1,6 +1,7 @@
 import { build } from "esbuild";
 import { mkdir, readFile, writeFile, cp, rm, lstat } from "node:fs/promises";
 import { resolve, dirname } from "node:path";
+import { buildServiceWorker } from "./service-worker.mjs";
 
 // Both entries live together so the worker's URL stays relative to main.mjs.
 const output = resolve("dist");
@@ -34,4 +35,5 @@ const html = (await readFile("index.html", "utf8"))
     '<link rel="stylesheet" href="/assets/main.css" /></head>',
   );
 await writeFile("dist/index.html", html);
+await buildServiceWorker("dist");
 console.log("Production build complete: dist");
