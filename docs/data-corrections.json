@@ -1,0 +1,1441 @@
+{
+  "source": "vendor/upstream.json",
+  "note": "Original CSV files retained in data/original. Flags and base stats corrected against the pinned engine. No correction runs during normal builds.",
+  "flags": [
+    {
+      "move": "アームハンマー",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Hammer Arm"
+    },
+    {
+      "move": "アイスハンマー",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Ice Hammer"
+    },
+    {
+      "move": "アイスボール",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Ice Ball"
+    },
+    {
+      "move": "アイスボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Ice Ball"
+    },
+    {
+      "move": "アクセルブレイク",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Collision Course"
+    },
+    {
+      "move": "あくのはどう",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Dark Pulse"
+    },
+    {
+      "move": "アシッドボム",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Acid Spray"
+    },
+    {
+      "move": "あてみなげ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Vital Throw"
+    },
+    {
+      "move": "アフロブレイク",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Head Charge"
+    },
+    {
+      "move": "あんこくきょうだ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Wicked Blow"
+    },
+    {
+      "move": "あんこくきょうだ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Wicked Blow"
+    },
+    {
+      "move": "いあいぎり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Cut"
+    },
+    {
+      "move": "いあいぎり",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Cut"
+    },
+    {
+      "move": "いかり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Rage"
+    },
+    {
+      "move": "いっちょうあがり",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Order Up"
+    },
+    {
+      "move": "イナズマドライブ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Electro Drift"
+    },
+    {
+      "move": "いにしえのうた",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Relic Song"
+    },
+    {
+      "move": "いわくだき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Rock Smash"
+    },
+    {
+      "move": "ウェザーボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Weather Ball"
+    },
+    {
+      "move": "エアカッター",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Air Cutter"
+    },
+    {
+      "move": "エアロブラスト",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Aeroblast"
+    },
+    {
+      "move": "エコーボイス",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Echoed Voice"
+    },
+    {
+      "move": "えだづき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Branch Poke"
+    },
+    {
+      "move": "エナジーボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Energy Ball"
+    },
+    {
+      "move": "おいうち",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Pursuit"
+    },
+    {
+      "move": "おうふくビンタ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Double Slap"
+    },
+    {
+      "move": "オクタンほう",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Octazooka"
+    },
+    {
+      "move": "おしゃべり",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Chatter"
+    },
+    {
+      "move": "おどろかす",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Astonish"
+    },
+    {
+      "move": "かいりき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Strength"
+    },
+    {
+      "move": "かえんぐるま",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Flame Wheel"
+    },
+    {
+      "move": "かえんだん",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Searing Shot"
+    },
+    {
+      "move": "かえんボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Pyro Ball"
+    },
+    {
+      "move": "かぜおこし",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Gust"
+    },
+    {
+      "move": "かたきうち",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Retaliate"
+    },
+    {
+      "move": "かふんだんご",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Pollen Puff"
+    },
+    {
+      "move": "かみくだく",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Crunch"
+    },
+    {
+      "move": "かみつく",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Bite"
+    },
+    {
+      "move": "かみなりあらし",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Wildbolt Storm"
+    },
+    {
+      "move": "かみなりのキバ",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Thunder Fang"
+    },
+    {
+      "move": "かみなりパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Thunder Punch"
+    },
+    {
+      "move": "からてチョップ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Karate Chop"
+    },
+    {
+      "move": "からではさむ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Clamp"
+    },
+    {
+      "move": "からみつく",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Constrict"
+    },
+    {
+      "move": "ガリョウテンセイ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Dragon Ascent"
+    },
+    {
+      "move": "がんせきほう",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Rock Wrecker"
+    },
+    {
+      "move": "きあいだま",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Focus Blast"
+    },
+    {
+      "move": "きあいパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Focus Punch"
+    },
+    {
+      "move": "きつけ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Smelling Salts"
+    },
+    {
+      "move": "きょけんとつげき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Glaive Rush"
+    },
+    {
+      "move": "きょじゅうざん",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Behemoth Blade"
+    },
+    {
+      "move": "きょじゅうざん",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Behemoth Blade"
+    },
+    {
+      "move": "きょじゅうだん",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Behemoth Bash"
+    },
+    {
+      "move": "きりさく",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Slash"
+    },
+    {
+      "move": "くちばしキャノン",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Beak Blast"
+    },
+    {
+      "move": "くらいつく",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Jaw Lock"
+    },
+    {
+      "move": "くらいつく",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Jaw Lock"
+    },
+    {
+      "move": "グロウパンチ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Power-Up Punch"
+    },
+    {
+      "move": "グロウパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Power-Up Punch"
+    },
+    {
+      "move": "こおりのキバ",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Ice Fang"
+    },
+    {
+      "move": "こがらしあらし",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Bleakwind Storm"
+    },
+    {
+      "move": "こごえるかぜ",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Icy Wind"
+    },
+    {
+      "move": "コメットパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Meteor Mash"
+    },
+    {
+      "move": "こんげんのはどう",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Origin Pulse"
+    },
+    {
+      "move": "サイコファング",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Psychic Fangs"
+    },
+    {
+      "move": "サイコブレイド",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Psyblade"
+    },
+    {
+      "move": "サイコブレイド",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Psyblade"
+    },
+    {
+      "move": "したでなめる",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Lick"
+    },
+    {
+      "move": "シャドースチール",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Spectral Thief"
+    },
+    {
+      "move": "シャドーダイブ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Shadow Force"
+    },
+    {
+      "move": "シャドーパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Shadow Punch"
+    },
+    {
+      "move": "シャドーボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Shadow Ball"
+    },
+    {
+      "move": "しんぴのつるぎ",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Secret Sword"
+    },
+    {
+      "move": "ジェットパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Jet Punch"
+    },
+    {
+      "move": "じごくぐるま",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Submission"
+    },
+    {
+      "move": "すいりゅうれんだ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Surging Strikes"
+    },
+    {
+      "move": "すいりゅうれんだ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Surging Strikes"
+    },
+    {
+      "move": "スカイアッパー",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Sky Uppercut"
+    },
+    {
+      "move": "スカイアッパー",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Sky Uppercut"
+    },
+    {
+      "move": "スパーク",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Spark"
+    },
+    {
+      "move": "ずつき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Headbutt"
+    },
+    {
+      "move": "ソウルクラッシュ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Spirit Break"
+    },
+    {
+      "move": "たいあたり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Tackle"
+    },
+    {
+      "move": "タキオンカッター",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Tachyon Cutter"
+    },
+    {
+      "move": "たたきつける",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Slam"
+    },
+    {
+      "move": "たつまき",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Twister"
+    },
+    {
+      "move": "タネばくだん",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Seed Bomb"
+    },
+    {
+      "move": "タネマシンガン",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Bullet Seed"
+    },
+    {
+      "move": "タマゴばくだん",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Egg Bomb"
+    },
+    {
+      "move": "たまなげ",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Barrage"
+    },
+    {
+      "move": "だいちのはどう",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Terrain Pulse"
+    },
+    {
+      "move": "ダブルチョップ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Dual Chop"
+    },
+    {
+      "move": "ダブルパンツァー",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Double Iron Bash"
+    },
+    {
+      "move": "ダブルパンツァー",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Double Iron Bash"
+    },
+    {
+      "move": "だましうち",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Feint Attack"
+    },
+    {
+      "move": "チャームボイス",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Disarming Voice"
+    },
+    {
+      "move": "つっぱり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Arm Thrust"
+    },
+    {
+      "move": "つつく",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Peck"
+    },
+    {
+      "move": "つのでつく",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Horn Attack"
+    },
+    {
+      "move": "つばさでうつ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Wing Attack"
+    },
+    {
+      "move": "つるのムチ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Vine Whip"
+    },
+    {
+      "move": "でんこうそうげき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Double Shock"
+    },
+    {
+      "move": "でんこうそうげき",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Double Shock"
+    },
+    {
+      "move": "でんじほう",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Zap Cannon"
+    },
+    {
+      "move": "とっしん",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Take Down"
+    },
+    {
+      "move": "とびげり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Jump Kick"
+    },
+    {
+      "move": "トリプルキック",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Triple Kick"
+    },
+    {
+      "move": "どくどくのキバ",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Poison Fang"
+    },
+    {
+      "move": "どげざつき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "False Surrender"
+    },
+    {
+      "move": "ドレインパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Drain Punch"
+    },
+    {
+      "move": "どろばくだん",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Mud Bomb"
+    },
+    {
+      "move": "なしくずし",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Chip Away"
+    },
+    {
+      "move": "ニードルアーム",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Needle Arm"
+    },
+    {
+      "move": "にどげり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Double Kick"
+    },
+    {
+      "move": "ねっさのあらし",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Sandsear Storm"
+    },
+    {
+      "move": "ねっぷう",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Heat Wave"
+    },
+    {
+      "move": "ハートスタンプ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Heart Stamp"
+    },
+    {
+      "move": "ハードローラー",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Steamroller"
+    },
+    {
+      "move": "はさむ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Vise Grip"
+    },
+    {
+      "move": "はっけい",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Force Palm"
+    },
+    {
+      "move": "はっぱカッター",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Razor Leaf"
+    },
+    {
+      "move": "はどうだん",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Aura Sphere"
+    },
+    {
+      "move": "はどうだん",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Aura Sphere"
+    },
+    {
+      "move": "はなふぶき",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Petal Blizzard"
+    },
+    {
+      "move": "はるのあらし",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Springtide Storm"
+    },
+    {
+      "move": "ばくれつパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Dynamic Punch"
+    },
+    {
+      "move": "バレットパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Bullet Punch"
+    },
+    {
+      "move": "パワフルエッジ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Mighty Cleave"
+    },
+    {
+      "move": "パワフルエッジ",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Mighty Cleave"
+    },
+    {
+      "move": "ひっかく",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Scratch"
+    },
+    {
+      "move": "ひっさつまえば",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Hyper Fang"
+    },
+    {
+      "move": "ひっさつまえば",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Hyper Fang"
+    },
+    {
+      "move": "びりびりちくちく",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Zing Zap"
+    },
+    {
+      "move": "ピヨピヨパンチ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Dizzy Punch"
+    },
+    {
+      "move": "ピヨピヨパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Dizzy Punch"
+    },
+    {
+      "move": "ふぶき",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Blizzard"
+    },
+    {
+      "move": "ふみつけ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Stomp"
+    },
+    {
+      "move": "フリーフォール",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Sky Drop"
+    },
+    {
+      "move": "ふんどのこぶし",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Rage Fist"
+    },
+    {
+      "move": "ふんどのこぶし",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Rage Fist"
+    },
+    {
+      "move": "Vジェネレート",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "V-create"
+    },
+    {
+      "move": "ぶちかまし",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Headlong Rush"
+    },
+    {
+      "move": "プラズマフィスト",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Plasma Fists"
+    },
+    {
+      "move": "プラズマフィスト",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Plasma Fists"
+    },
+    {
+      "move": "ヘドロばくだん",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Sludge Bomb"
+    },
+    {
+      "move": "ホイールスピン",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Spin Out"
+    },
+    {
+      "move": "ほのおのキバ",
+      "column": "かみつき技",
+      "value": "TRUE",
+      "source": "Fire Fang"
+    },
+    {
+      "move": "ほのおのパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Fire Punch"
+    },
+    {
+      "move": "ぼうふう",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Hurricane"
+    },
+    {
+      "move": "ポイズンテール",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Poison Tail"
+    },
+    {
+      "move": "マグネットボム",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Magnet Bomb"
+    },
+    {
+      "move": "マッハパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Mach Punch"
+    },
+    {
+      "move": "マルチアタック",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Multi-Attack"
+    },
+    {
+      "move": "まわしげり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Rolling Kick"
+    },
+    {
+      "move": "ミストボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Mist Ball"
+    },
+    {
+      "move": "みずあめボム",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Syrup Bomb"
+    },
+    {
+      "move": "みずのはどう",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Water Pulse"
+    },
+    {
+      "move": "みだれづき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Fury Attack"
+    },
+    {
+      "move": "みだれひっかき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Fury Swipes"
+    },
+    {
+      "move": "メガトンパンチ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Mega Punch"
+    },
+    {
+      "move": "メガトンパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Mega Punch"
+    },
+    {
+      "move": "めざましビンタ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Wake-Up Slap"
+    },
+    {
+      "move": "メタルクロー",
+      "column": "切る技",
+      "value": "TRUE",
+      "source": "Metal Claw"
+    },
+    {
+      "move": "メテオドライブ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Sunsteel Strike"
+    },
+    {
+      "move": "ようせいのかぜ",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Fairy Wind"
+    },
+    {
+      "move": "らいげき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Bolt Strike"
+    },
+    {
+      "move": "らいめいげり",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Thunderous Kick"
+    },
+    {
+      "move": "りゅうのはどう",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Dragon Pulse"
+    },
+    {
+      "move": "れいとうパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Ice Punch"
+    },
+    {
+      "move": "れんぞくパンチ",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Comet Punch"
+    },
+    {
+      "move": "れんぞくパンチ",
+      "column": "パンチ技",
+      "value": "TRUE",
+      "source": "Comet Punch"
+    },
+    {
+      "move": "ロケットずつき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Skull Bash"
+    },
+    {
+      "move": "ロッククライム",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Rock Climb"
+    },
+    {
+      "move": "ロックブラスト",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Rock Blast"
+    },
+    {
+      "move": "わるあがき",
+      "column": "接触",
+      "value": "TRUE",
+      "source": "Struggle"
+    },
+    {
+      "move": "いやしのはどう",
+      "column": "波動技",
+      "value": "TRUE",
+      "source": "Heal Pulse"
+    },
+    {
+      "move": "おいかぜ",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Tailwind"
+    },
+    {
+      "move": "くさぶえ",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Grass Whistle"
+    },
+    {
+      "move": "すなあらし",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Sandstorm"
+    },
+    {
+      "move": "ちょうおんぱ",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Supersonic"
+    },
+    {
+      "move": "ないしょばなし",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Confide"
+    },
+    {
+      "move": "なきごえ",
+      "column": "音技",
+      "value": "TRUE",
+      "source": "Growl"
+    },
+    {
+      "move": "ふきとばし",
+      "column": "風技",
+      "value": "TRUE",
+      "source": "Whirlwind"
+    },
+    {
+      "move": "ジャイロボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Gyro Ball"
+    },
+    {
+      "move": "エレキボール",
+      "column": "弾技",
+      "value": "TRUE",
+      "source": "Electro Ball"
+    }
+  ],
+  "stats": [
+    {
+      "pokemon": "ウインディH",
+      "csv": {
+        "hp": 95,
+        "atk": 115,
+        "def": 85,
+        "spa": 95,
+        "spd": 80,
+        "spe": 90
+      },
+      "engine": {
+        "hp": 95,
+        "atk": 115,
+        "def": 80,
+        "spa": 95,
+        "spd": 80,
+        "spe": 90
+      }
+    },
+    {
+      "pokemon": "ヤドキングG",
+      "csv": {
+        "hp": 95,
+        "atk": 75,
+        "def": 80,
+        "spa": 100,
+        "spd": 110,
+        "spe": 30
+      },
+      "engine": {
+        "hp": 95,
+        "atk": 65,
+        "def": 80,
+        "spa": 110,
+        "spd": 110,
+        "spe": 30
+      }
+    },
+    {
+      "pokemon": "ミノマダム鋼",
+      "csv": {
+        "hp": 60,
+        "atk": 59,
+        "def": 85,
+        "spa": 79,
+        "spd": 105,
+        "spe": 36
+      },
+      "engine": {
+        "hp": 60,
+        "atk": 69,
+        "def": 95,
+        "spa": 69,
+        "spd": 95,
+        "spe": 36
+      }
+    },
+    {
+      "pokemon": "ミノマダム地面",
+      "csv": {
+        "hp": 60,
+        "atk": 59,
+        "def": 85,
+        "spa": 79,
+        "spd": 105,
+        "spe": 36
+      },
+      "engine": {
+        "hp": 60,
+        "atk": 79,
+        "def": 105,
+        "spa": 59,
+        "spd": 85,
+        "spe": 36
+      }
+    },
+    {
+      "pokemon": "マッギョG",
+      "csv": {
+        "hp": 100,
+        "atk": 81,
+        "def": 99,
+        "spa": 66,
+        "spd": 84,
+        "spe": 32
+      },
+      "engine": {
+        "hp": 109,
+        "atk": 81,
+        "def": 99,
+        "spa": 66,
+        "spd": 84,
+        "spe": 32
+      }
+    },
+    {
+      "pokemon": "メガブリガロン",
+      "csv": {
+        "hp": 88,
+        "atk": 137,
+        "def": 172,
+        "spa": 72,
+        "spd": 115,
+        "spe": 44
+      },
+      "engine": {
+        "hp": 88,
+        "atk": 137,
+        "def": 172,
+        "spa": 74,
+        "spd": 115,
+        "spe": 44
+      }
+    },
+    {
+      "pokemon": "ヌメイルH",
+      "csv": {
+        "hp": 57,
+        "atk": 75,
+        "def": 83,
+        "spa": 83,
+        "spd": 113,
+        "spe": 40
+      },
+      "engine": {
+        "hp": 58,
+        "atk": 75,
+        "def": 83,
+        "spa": 83,
+        "spd": 113,
+        "spe": 40
+      }
+    },
+    {
+      "pokemon": "ザシアン",
+      "csv": {
+        "hp": 92,
+        "atk": 130,
+        "def": 115,
+        "spa": 80,
+        "spd": 115,
+        "spe": 138
+      },
+      "engine": {
+        "hp": 92,
+        "atk": 120,
+        "def": 115,
+        "spa": 80,
+        "spd": 115,
+        "spe": 138
+      }
+    },
+    {
+      "pokemon": "ザシアン剣",
+      "csv": {
+        "hp": 92,
+        "atk": 170,
+        "def": 115,
+        "spa": 80,
+        "spd": 115,
+        "spe": 148
+      },
+      "engine": {
+        "hp": 92,
+        "atk": 150,
+        "def": 115,
+        "spa": 80,
+        "spd": 115,
+        "spe": 148
+      }
+    },
+    {
+      "pokemon": "ザマゼンタ",
+      "csv": {
+        "hp": 92,
+        "atk": 130,
+        "def": 115,
+        "spa": 80,
+        "spd": 115,
+        "spe": 138
+      },
+      "engine": {
+        "hp": 92,
+        "atk": 120,
+        "def": 115,
+        "spa": 80,
+        "spd": 115,
+        "spe": 138
+      }
+    },
+    {
+      "pokemon": "ザマゼンタ盾",
+      "csv": {
+        "hp": 92,
+        "atk": 130,
+        "def": 145,
+        "spa": 80,
+        "spd": 145,
+        "spe": 128
+      },
+      "engine": {
+        "hp": 92,
+        "atk": 120,
+        "def": 140,
+        "spa": 80,
+        "spd": 140,
+        "spe": 128
+      }
+    },
+    {
+      "pokemon": "ウネルミナモ",
+      "csv": {
+        "hp": 90,
+        "atk": 83,
+        "def": 91,
+        "spa": 125,
+        "spd": 83,
+        "spe": 109
+      },
+      "engine": {
+        "hp": 99,
+        "atk": 83,
+        "def": 91,
+        "spa": 125,
+        "spd": 83,
+        "spe": 109
+      }
+    }
+  ],
+  "types": [
+    {
+      "pokemon": "サンド",
+      "csv": [
+        "Ice",
+        "Steel"
+      ],
+      "engine": [
+        "Ground"
+      ]
+    },
+    {
+      "pokemon": "サンドパン",
+      "csv": [
+        "Ice",
+        "Steel"
+      ],
+      "engine": [
+        "Ground"
+      ]
+    },
+    {
+      "pokemon": "ヤドンG",
+      "csv": [
+        "Psychic",
+        "Poison"
+      ],
+      "engine": [
+        "Psychic"
+      ]
+    },
+    {
+      "pokemon": "メガボスゴドラ",
+      "csv": [
+        "Steel",
+        "Rock"
+      ],
+      "engine": [
+        "Steel"
+      ]
+    },
+    {
+      "pokemon": "デスマス",
+      "csv": [
+        "Ground",
+        "Ghost"
+      ],
+      "engine": [
+        "Ghost"
+      ]
+    },
+    {
+      "pokemon": "マッギョ",
+      "csv": [
+        "Ground",
+        "Steel"
+      ],
+      "engine": [
+        "Ground",
+        "Electric"
+      ]
+    },
+    {
+      "pokemon": "メロエッタV",
+      "csv": [
+        "Psychic"
+      ],
+      "engine": [
+        "Normal",
+        "Psychic"
+      ]
+    },
+    {
+      "pokemon": "メロエッタS",
+      "csv": [
+        "Psychic",
+        "Fighting"
+      ],
+      "engine": [
+        "Normal",
+        "Fighting"
+      ]
+    },
+    {
+      "pokemon": "フーパ",
+      "csv": [
+        "Psychic",
+        "Dark"
+      ],
+      "engine": [
+        "Psychic",
+        "Ghost"
+      ]
+    }
+  ]
+}
