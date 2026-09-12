@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.local/
+GitHub-upload/
+*.log
+.env*
+!.env.example
